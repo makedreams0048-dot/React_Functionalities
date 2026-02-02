@@ -6,6 +6,10 @@ import FruitList from "./components/MapFunctionality/FruitList";
 import BooksList from "./components/MapFunctionality/BooksList";
 import ConditionalExample from "./components/ConditionalRendering/ConditionalExample";
 import ConditionalAndoperator from "./components/ConditionalRendering/ConditionalAndoperator";
+import FormsInputHandling_in_React from "./components/FormsInputHandling_in_React/InputForm";
+import InputWithButton from "./components/FormsInputHandling_in_React/InputWithButton";
+import FormTask from "./components/FormsInputHandling_in_React/formTask";
+
 function App() {
   return (
     <div className="centered">
@@ -16,8 +20,11 @@ function App() {
       <Like/> 
       <FruitList/>
       <BooksList/>
-      <ConditionalExample />*/}
-      <ConditionalAndoperator/>
+      <ConditionalExample />
+      <ConditionalAndoperator/>*/}
+      {/* <FormsInputHandling_in_React/> */}
+      {/* <InputWithButton/> */}
+      <FormTask/>
     </div>
   );
 }
