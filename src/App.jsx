@@ -9,6 +9,10 @@ import ConditionalAndoperator from "./components/ConditionalRendering/Conditiona
 import FormsInputHandling_in_React from "./components/FormsInputHandling_in_React/InputForm";
 import InputWithButton from "./components/FormsInputHandling_in_React/InputWithButton";
 import FormTask from "./components/FormsInputHandling_in_React/formTask";
+// import Task from "./components/FormsInputHandling_in_React/Test";
+import MultiInputForm from "./components/FormsInputHandling_in_React/MultiInputForm/MultiInputForm"
+import Test from "./components/FormsInputHandling_in_React/MultiInputForm/Test"
+import Age from "./components/FormsInputHandling_in_React/MultiInputForm/Age"
 
 function App() {
   return (
@@ -24,7 +28,11 @@ function App() {
       <ConditionalAndoperator/>*/}
       {/* <FormsInputHandling_in_React/> */}
       {/* <InputWithButton/> */}
-      <FormTask/>
+      {/* <FormTask/> */}
+      {/* <Task/> */}
+      {/* <MultiInputForm/> */}
+      {/* <Test/> */}
+      <Age/>
     </div>
   );
 }
