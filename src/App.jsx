@@ -13,8 +13,11 @@ import FormTask from "./components/FormsInputHandling_in_React/formTask";
 import MultiInputForm from "./components/FormsInputHandling_in_React/MultiInputForm/MultiInputForm"
 import Test from "./components/FormsInputHandling_in_React/MultiInputForm/Test"
 import Age from "./components/FormsInputHandling_in_React/MultiInputForm/Age"
-import Parent from "./components/PropsFunctionality/Parent";
+// import Parent from "./components/PropsFunctionality/Parent";
 import State from "./components/PropsFunctionality/Task/State";
+import ParentCounter from "./components/Startliftingstateup_child_to_parent_update/ParentCounter";
+import ParentData from "./components/Startliftingstateup_child_to_parent_update/Task/ParentData";
+import DataParent from "./components/Startliftingstateup_child_to_parent_update/Task1/DataParent";
 
 function App() {
   return (
@@ -35,8 +38,11 @@ function App() {
       {/* <MultiInputForm/> */}
       {/* <Test/> */}
       {/* <Age/> */}
-      <State/>
-      
+      {/* <State/> */}
+      {/* <ParentCounter /> */}
+      {/* <ParentData/> */}
+      <DataParent/>
+  
     </div>
   );
 }
