@@ -9,15 +9,17 @@ import ConditionalAndoperator from "./components/ConditionalRendering/Conditiona
 import FormsInputHandling_in_React from "./components/FormsInputHandling_in_React/InputForm";
 import InputWithButton from "./components/FormsInputHandling_in_React/InputWithButton";
 import FormTask from "./components/FormsInputHandling_in_React/formTask";
-// import Task from "./components/FormsInputHandling_in_React/Test";
+import Task from "./components/FormsInputHandling_in_React/Test";
 import MultiInputForm from "./components/FormsInputHandling_in_React/MultiInputForm/MultiInputForm"
 import Test from "./components/FormsInputHandling_in_React/MultiInputForm/Test"
 import Age from "./components/FormsInputHandling_in_React/MultiInputForm/Age"
-// import Parent from "./components/PropsFunctionality/Parent";
+import Parent from "./components/PropsFunctionality/Parent";
 import State from "./components/PropsFunctionality/Task/State";
 import ParentCounter from "./components/Startliftingstateup_child_to_parent_update/ParentCounter";
 import ParentData from "./components/Startliftingstateup_child_to_parent_update/Task/ParentData";
 import DataParent from "./components/Startliftingstateup_child_to_parent_update/Task1/DataParent";
+import UseEffectExample from "./components/UseEffet_Functionality/UseEffectExample";
+// import TestUseEffect from "./components/UseEffet_Functionality/TestUseEffect";
 
 function App() {
   return (
@@ -41,7 +43,9 @@ function App() {
       {/* <State/> */}
       {/* <ParentCounter /> */}
       {/* <ParentData/> */}
-      <DataParent/>
+      {/* <DataParent/> */}
+      {/* <UseEffectExample/> */}
+      {/* <TestUseEffect/> */}
   
     </div>
   );
