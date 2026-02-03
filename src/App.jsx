@@ -13,6 +13,8 @@ import FormTask from "./components/FormsInputHandling_in_React/formTask";
 import MultiInputForm from "./components/FormsInputHandling_in_React/MultiInputForm/MultiInputForm"
 import Test from "./components/FormsInputHandling_in_React/MultiInputForm/Test"
 import Age from "./components/FormsInputHandling_in_React/MultiInputForm/Age"
+import Parent from "./components/PropsFunctionality/Parent";
+import State from "./components/PropsFunctionality/Task/State";
 
 function App() {
   return (
@@ -32,7 +34,9 @@ function App() {
       {/* <Task/> */}
       {/* <MultiInputForm/> */}
       {/* <Test/> */}
-      <Age/>
+      {/* <Age/> */}
+      <State/>
+      
     </div>
   );
 }
