@@ -25,8 +25,12 @@
 // import ApiTestingData from "./components/ApiUseEffectAndStateFunctionality/Task/ApiTestingData";
 // import CollectionMobile from "./components/MapFunctionality/CollectionMobile";
 // import Users from "./components/ApiUseEffectAndStateFunctionality/ErrorHandling/ErrorHandle";
-import TestError from "./components/ApiUseEffectAndStateFunctionality/ErrorHandling/TestError";
-import FinalError from "./components/ApiUseEffectAndStateFunctionality/ErrorHandling/FinalError";
+// import TestError from "./components/ApiUseEffectAndStateFunctionality/ErrorHandling/TestError";
+// import FinalError from "./components/ApiUseEffectAndStateFunctionality/ErrorHandling/FinalError";
+//  import AddUser from "./components/ApiUseEffectAndStateFunctionality/PostAPI/AddUser";
+//  import AddPhone from "./components/ApiUseEffectAndStateFunctionality/PostAPI/AddPhone";
+//   import Testing from "./components/ApiUseEffectAndStateFunctionality/PostAPI/Testing";
+   
 function App() {
   return (
     <div className="centered">
@@ -57,8 +61,11 @@ function App() {
       {/* <ApiTestingData/> */}
       {/* <CollectionMobile/> */}
       {/* <Users/> */}
-      <TestError/>
+      {/* <TestError/> */}
       {/* <FinalError/> */}
+      {/* <AddUser/> */}
+      {/* <AddPhone/> */}
+      {/* <Testing/> */}
   
     </div>
   );
