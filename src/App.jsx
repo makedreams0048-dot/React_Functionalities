@@ -24,8 +24,9 @@
 // import ApiTest from "./components/ApiUseEffectAndStateFunctionality/Task/ApiTest";
 // import ApiTestingData from "./components/ApiUseEffectAndStateFunctionality/Task/ApiTestingData";
 // import CollectionMobile from "./components/MapFunctionality/CollectionMobile";
-
-
+// import Users from "./components/ApiUseEffectAndStateFunctionality/ErrorHandling/ErrorHandle";
+import TestError from "./components/ApiUseEffectAndStateFunctionality/ErrorHandling/TestError";
+import FinalError from "./components/ApiUseEffectAndStateFunctionality/ErrorHandling/FinalError";
 function App() {
   return (
     <div className="centered">
@@ -55,7 +56,9 @@ function App() {
       {/* <ApiTest/> */}
       {/* <ApiTestingData/> */}
       {/* <CollectionMobile/> */}
-
+      {/* <Users/> */}
+      <TestError/>
+      {/* <FinalError/> */}
   
     </div>
   );
