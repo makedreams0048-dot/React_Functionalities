@@ -27,14 +27,15 @@
 // import Users from "./components/ApiUseEffectAndStateFunctionality/ErrorHandling/ErrorHandle";
 // import TestError from "./components/ApiUseEffectAndStateFunctionality/ErrorHandling/TestError";
 // import FinalError from "./components/ApiUseEffectAndStateFunctionality/ErrorHandling/FinalError";
-//  import AddUser from "./components/ApiUseEffectAndStateFunctionality/PostAPI/AddUser";
-//  import AddPhone from "./components/ApiUseEffectAndStateFunctionality/PostAPI/AddPhone";
-//   import Testing from "./components/ApiUseEffectAndStateFunctionality/PostAPI/Testing";
+// import AddUser from "./components/ApiUseEffectAndStateFunctionality/PostAPI/AddUser";
+// import AddPhone from "./components/ApiUseEffectAndStateFunctionality/PostAPI/AddPhone";
+// import Testing from "./components/ApiUseEffectAndStateFunctionality/PostAPI/Testing";
+import UserApp from "./components/UserCrud/UserApp";
    
 function App() {
   return (
     <div className="centered">
-      <h1 style={{ color: 'red'}}>Hello React 👋</h1>
+      {/* <h1 style={{ color: 'red'}}>Hello React 👋</h1> */}
       {/* <Counter title="First Counter"/> */}
       {/* <Addition title="Second Counter" /> */}
       {/* <Show/> */}
@@ -66,7 +67,8 @@ function App() {
       {/* <AddUser/> */}
       {/* <AddPhone/> */}
       {/* <Testing/> */}
-  
+      <UserApp/>
+
     </div>
   );
 }
