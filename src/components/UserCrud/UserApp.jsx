@@ -10,7 +10,7 @@ function UserApp() {
 
   // GET users
   const fetchUsers = async () => {
-    const res = await fetch("http://localhost:5000/users");
+    const res = await fetch("http://localhost:5000/users/getData");
     const data = await res.json();
     setUsers(data);
   };
