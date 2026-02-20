@@ -12,7 +12,6 @@ function ConditionalAndoperator(){
 
             <button onClick={(()=> setShow(!show))}>button</button>
 
-
                {show && <p>My content is visible</p>}
                {!show && <p>My content is Hidden</p>}
 

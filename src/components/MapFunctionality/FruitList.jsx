@@ -6,6 +6,7 @@ function FruitList() {
     { id: 3, name: "Orange", emoji: "🍊" },
   ];
 
+  
   return (
     <div>
       <h2>Fruit List</h2>
@@ -16,8 +17,15 @@ function FruitList() {
           {fruit.emoji} {fruit.name}
         </p>
       ))}
+      
+
+
+
     </div>
   );
 }
 
 export default FruitList;
+
+
+

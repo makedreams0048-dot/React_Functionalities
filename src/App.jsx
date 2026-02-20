@@ -1,11 +1,16 @@
 // import Counter from "./components/UseState_Functionality/Counter";
+// import CounterDemo from "./components/UseState_Functionality/CounterDemo";
 // import Addition from "./components/UseState_Functionality/Addition";
 // import Show from "./components/UseState_Functionality/Show";
 // import Like from "./components/UseState_Functionality/Like";
+// import Enable from "./components/UseState_Functionality/Enable";
+// import On from "./components/UseState_Functionality/On";
 // import FruitList from "./components/MapFunctionality/FruitList";
 // import BooksList from "./components/MapFunctionality/BooksList";
+// import DocsList from "./components/MapFunctionality/DocsList";
 // import ConditionalExample from "./components/ConditionalRendering/ConditionalExample";
 // import ConditionalAndoperator from "./components/ConditionalRendering/ConditionalAndoperator";
+// import ConditionalManage from "./components/ConditionalRendering/ConditionManage";
 // import FormsInputHandling_in_React from "./components/FormsInputHandling_in_React/InputForm";
 // import InputWithButton from "./components/FormsInputHandling_in_React/InputWithButton";
 // import FormTask from "./components/FormsInputHandling_in_React/formTask";
@@ -13,12 +18,17 @@
 // import MultiInputForm from "./components/FormsInputHandling_in_React/MultiInputForm/MultiInputForm"
 // import Test from "./components/FormsInputHandling_in_React/MultiInputForm/Test"
 // import Age from "./components/FormsInputHandling_in_React/MultiInputForm/Age"
-// import Parent from "./components/PropsFunctionality/Parent";
+//  import FormData from "./components/FormsInputHandling_in_React/FormData";
+  // import MultiForm from "./components/FormsInputHandling_in_React/MultiForm";
+  // import Parent from "./components/PropsFunctionality/Parent";
 // import State from "./components/PropsFunctionality/Task/State";
+//  import Me from "./components/PropsFunctionality/Task2/Me";
 // import ParentCounter from "./components/Startliftingstateup_child_to_parent_update/ParentCounter";
 // import ParentData from "./components/Startliftingstateup_child_to_parent_update/Task/ParentData";
 // import DataParent from "./components/Startliftingstateup_child_to_parent_update/Task1/DataParent";
+// import ParentCounter from "./components/Startliftingstateup_child_to_parent_update/counterManagePratentToChild/ParentCounter";
 // import UseEffectExample from "./components/UseEffet_Functionality/UseEffectExample";
+// import Effect from './/components/UseEffet_Functionality/Effect';
 // import Users from "./components/ApiUseEffectAndStateFunctionality/Users";
 // import TestUseEffect from "./components/UseEffet_Functionality/TestUseEffect";
 // import ApiTest from "./components/ApiUseEffectAndStateFunctionality/Task/ApiTest";
@@ -30,20 +40,25 @@
 // import AddUser from "./components/ApiUseEffectAndStateFunctionality/PostAPI/AddUser";
 // import AddPhone from "./components/ApiUseEffectAndStateFunctionality/PostAPI/AddPhone";
 // import Testing from "./components/ApiUseEffectAndStateFunctionality/PostAPI/Testing";
-import UserApp from "./components/UserCrud/UserApp";
-   
+// import UserApp from "./components/UserCrud/UserApp";
+
 function App() {
   return (
     <div className="centered">
-      {/* <h1 style={{ color: 'red'}}>Hello React 👋</h1> */}
+      <h1 style={{ color: 'red'}}>Hello React 👋</h1>
       {/* <Counter title="First Counter"/> */}
+       {/* <CounterDemo/> */}
       {/* <Addition title="Second Counter" /> */}
       {/* <Show/> */}
       {/* <Like/>  */}
+       {/* <Enable/>
+       <On/> */}
+       {/* <DocsList/> */}
       {/* <FruitList/> */}
       {/* <BooksList/> */}
       {/* <ConditionalExample /> */}
       {/* <ConditionalAndoperator/> */}
+      {/* <ConditionalManage/> */}
       {/* <FormsInputHandling_in_React/> */}
       {/* <InputWithButton/> */}
       {/* <FormTask/> */}
@@ -51,12 +66,17 @@ function App() {
       {/* <MultiInputForm/> */}
       {/* <Test/> */}
       {/* <Age/> */}
+      {/* <FormData/> */}
+      {/* <MultiForm/> */}
       {/* <State/> */}
+      {/* <Me/> */}
       {/* <ParentCounter /> */}
       {/* <ParentData/> */}
       {/* <DataParent/> */}
+      {/* <ParentCounter/> */}
       {/* <UseEffectExample/> */}
       {/* <TestUseEffect/> */}
+      {/* <Effect/> */}
       {/* <Users/> */}
       {/* <ApiTest/> */}
       {/* <ApiTestingData/> */}
@@ -67,7 +87,7 @@ function App() {
       {/* <AddUser/> */}
       {/* <AddPhone/> */}
       {/* <Testing/> */}
-      <UserApp/>
+      {/* <UserApp/> */}
 
     </div>
   );
