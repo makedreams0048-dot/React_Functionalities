@@ -30,6 +30,7 @@
 // import UseEffectExample from "./components/UseEffet_Functionality/UseEffectExample";
 // import Effect from './/components/UseEffet_Functionality/Effect';
 // import Users from "./components/ApiUseEffectAndStateFunctionality/Users";
+// import Customer from "./components/ApiUseEffectAndStateFunctionality/Customer";
 // import TestUseEffect from "./components/UseEffet_Functionality/TestUseEffect";
 // import ApiTest from "./components/ApiUseEffectAndStateFunctionality/Task/ApiTest";
 // import ApiTestingData from "./components/ApiUseEffectAndStateFunctionality/Task/ApiTestingData";
@@ -40,6 +41,7 @@
 // import AddUser from "./components/ApiUseEffectAndStateFunctionality/PostAPI/AddUser";
 // import AddPhone from "./components/ApiUseEffectAndStateFunctionality/PostAPI/AddPhone";
 // import Testing from "./components/ApiUseEffectAndStateFunctionality/PostAPI/Testing";
+// import AddCustomer from "./components/ApiUseEffectAndStateFunctionality/PostAPI/AddCustomer";
 // import UserApp from "./components/UserCrud/UserApp";
 
 function App() {
@@ -78,6 +80,8 @@ function App() {
       {/* <TestUseEffect/> */}
       {/* <Effect/> */}
       {/* <Users/> */}
+      {/* <Customer/> */}
+      {/* <AddCustomer/> */}
       {/* <ApiTest/> */}
       {/* <ApiTestingData/> */}
       {/* <CollectionMobile/> */}
