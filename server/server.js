@@ -1,31 +1,34 @@
-require("dotenv").config();   // load env variables
+require("dotenv").config();
 
 const express = require("express");
 const cors = require("cors");
-const mongoose = require("mongoose");
 
+const connectDB = require("./config/db"); // ✅ Import DB connection
 
 const app = express();
 
-// middleware
+// Connect Database
+connectDB();
+
+// Middleware
 app.use(cors());
 app.use(express.json());
 
-// MongoDB connection
-mongoose.connect(process.env.MONGO_URL)
-  .then(() => console.log("MongoDB Connected ✅"))
-  .catch((err) => console.log("MongoDB Error:", err));
+app.get("/", (req, res) => {
+  res.send("Server is running 🚀");
+});
 
+// Routes
+const userRoutes = require("./routes/UserRoute");
+app.use("/users", userRoutes);
 
-// Import routes
-const userRoutes = require("../server/routes/UserRoute");
-app.use("/users",userRoutes);
+const customerRoutes = require("./routes/CustomerRoute");
+app.use("/customer", customerRoutes);
 
+const peropleRoutes =  require("./routes/PeopleRoute")
+app.use("/people",peropleRoutes);
 
-const customerRoutes = require("../server/routes/CustomerRoute")
-app.use("/customer",customerRoutes)
-
-// start server
+// Start server
 app.listen(process.env.PORT || 5000, () => {
   console.log("Server running on port 5000");
 });

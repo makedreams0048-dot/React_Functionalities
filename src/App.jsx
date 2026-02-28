@@ -42,7 +42,7 @@
 // import AddPhone from "./components/ApiUseEffectAndStateFunctionality/PostAPI/AddPhone";
 // import Testing from "./components/ApiUseEffectAndStateFunctionality/PostAPI/Testing";
 // import AddCustomer from "./components/ApiUseEffectAndStateFunctionality/PostAPI/AddCustomer";
-// import UserApp from "./components/UserCrud/UserApp";
+import UserApp from "./components/UserCrud/UserApp";
 
 function App() {
   return (
@@ -91,7 +91,7 @@ function App() {
       {/* <AddUser/> */}
       {/* <AddPhone/> */}
       {/* <Testing/> */}
-      {/* <UserApp/> */}
+       <UserApp/>
 
     </div>
   );

@@ -5,6 +5,18 @@ const router = express.Router();
 const User = require("../models/userModel/User");
 //User APi's List
 
+
+// CREATE
+router.post("/", async (req, res) => {
+  try {
+    const newPerson = await People.create(req.body);
+    res.status(201).json(newPerson);
+  } catch (error) {
+    res.status(400).json({ error: error.message });
+  }
+});
+
+
 //Store Api
 router.post("/add-user", async (req, res) => {
   try {
