@@ -8,7 +8,6 @@ const People =  require("../models/PeopleModel/People");
 router.post("/create", async (req,res)=>{
     try{
         const newPeople = await People.create(req.body);
-        dd(newPeople);
         res.status(201).json(newPeople);
     }catch(error){
         res.status(400).json({error:error.message})

@@ -18,6 +18,10 @@ app.get("/", (req, res) => {
   res.send("Server is running 🚀");
 });
 
+app.get("/test", (req, res) => {
+  res.send("Backend working ✅");
+});
+
 // Routes
 const userRoutes = require("./routes/UserRoute");
 app.use("/users", userRoutes);
@@ -29,6 +33,6 @@ const peropleRoutes =  require("./routes/PeopleRoute")
 app.use("/people",peropleRoutes);
 
 // Start server
-app.listen(process.env.PORT || 5000, () => {
-  console.log("Server running on port 5000");
+app.listen(process.env.PORT || 5001, () => {
+  console.log(`Server running on port ${process.env.PORT || 5001}`);
 });
